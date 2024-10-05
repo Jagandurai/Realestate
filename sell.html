@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chennai properties</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="top">
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <ion-icon name="business-outline"></ion-icon> CHENNAI PROPERTIES
+            </a>
+
+            <nav class="navbar container" data-navbar>
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="navbar-link" data-nav-link>About</a>
+                    </li>
+
+                    <li>
+                        <a href="buy.html" class="navbar-link" data-nav-link>Buy</a>
+                    </li>
+
+                    <li>
+                        <a href="sell.html" class="navbar-link" data-nav-link>Sell</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="navbar-link" data-nav-link>Contact</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <a href="#" class="btn btn-secondary">Login</a>
+
+            <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+                <ion-icon name="close-outline" aria-hidden="true" class="close-icon"></ion-icon>
+            </button>
+
+        </div>
+    </header>
+<main>
+        <div class="banner">
+            <img src="./assets/images/airport.jpg" alt="About Us Banner">
+            <h1 >SELL | chennai properties</h1>
+        </div>
+        </section>
+        <section class="top-five-omr" id="top-level-five">
+            <div class="container" data-aos="fade-up">
+        
+                <div class="col-lg-12 col-xs-12 no-padding total-single-reason">
+                    <div class="col-lg-6 col-xs-12 single-reason-omr">
+                        <h2 class="h2 section-title">Sell your properties</h2>
+                        <p class="center short-details">
+                            The one and only platform which provides consistent services which focuses on properties in and around Chennai.
+                            Quality shows the effectiveness of any portal. Every nook and corner of the property is verified enormously before
+                            handing over to the customers.
+                            Only a reliable portal will receive the distinctive visitor and we are the one in it.
+                        </p>
+                        <button class="show-more-dec">READ MORE</button>
+                    </div>
+                    <div class="single-reason-image col-lg-6 col-xs-12">
+                        <img src="./assets/images/sell.jpeg" alt="Real estate in Chennai" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="real-estate-form">
+            <form id="apartment-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="number">Contact Number:</label>
+                    <input type="tel" id="number" name="number" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="email">Email ID:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="pan-card">PAN Card Number:</label>
+                    <input type="text" id="pan-card" name="pan-card" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="aadhar-card">Aadhaar Card Number:</label>
+                    <input type="text" id="aadhar-card" name="aadhar-card" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">PropertyType</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="land-size">Land Size (in sq. ft.):</label>
+                    <input type="text" id="land-size" name="land-size" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="bedroom-count">Bedroom Count:</label>
+                    <input type="number" id="bedroom-count" name="bedroom-count" required>
+                </div>
+        
+
+        
+                <div class="form-group">
+                    <label for="bathroom-count">Bathroom Count:</label>
+                    <input type="number" id="bathroom-count" name="bathroom-count" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="rate">Rate of the Apartment (per sq. ft.):</label>
+                    <input type="number" id="rate" name="rate" step="0.01" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="image-upload">Upload Images:</label>
+                    <input type="file" id="image-upload" name="image-upload[]" multiple>
+                </div>
+        
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="state">State:</label>
+                    <input type="text" id="state" name="state" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country" required>
+                </div>
+        
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+
+</main>
+<footer class="footer">
+
+    <div class="footer-top">
+        <div class="container">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+                    <ion-icon name="business-outline"></ion-icon> CHENNAI_PROPERTIES
+                </a>
+
+                <p class="footer-text">
+                    A great plateform to buy, sell and rent your properties without any agent or commisions.
+                </p>
+
+            </div>
+
+
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="footer-list-title">Quick Links</p>
+                </li>
+
+                <li>
+                    <a href="index.html" class="footer-link">
+                        <ion-icon name="chevron-forward"></ion-icon>
+
+                        <span class="span">Home</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html" class="footer-link">
+                        <ion-icon name="chevron-forward"></ion-icon>
+
+                        <span class="span">About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="buy.html" class="footer-link">
+                        <ion-icon name="chevron-forward"></ion-icon>
+
+                        <span class="span">Buy</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="sell.html" class="footer-link">
+                        <ion-icon name="chevron-forward"></ion-icon>
+
+                        <span class="span">Sell</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html" class="footer-link">
+                        <ion-icon name="chevron-forward"></ion-icon>
+
+                        <span class="span">Contact</span>
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="footer-list">
+
+                <li>
+                    <p class="footer-list-title">Partner Sites</p>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward"></ion-icon>
+
+                        <span class="span">Bengaluru Properties</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward"></ion-icon>
+
+                        <span class="span">Coimbatore Property</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward"></ion-icon>
+
+                        <span class="span">OMR Flats</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward"></ion-icon>
+
+                        <span class="span">Madurai Flats</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+
+            <p class="copyright">
+                &copy; 2024 chennaiproperties. All Right Reserved
+            </p>
+
+            <ul class="social-list">
+
+                <li>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+</footer>
+
+
+<a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+</a>
+<script src="./assets/js/script.js" defer></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000, 
+        once: true      
+    });
+</script>
+
+</body>
+
+</html>
